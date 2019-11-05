@@ -156,3 +156,31 @@ function isWhat(n) {
     return true;
 }
 ```
+
+11. Tower of Hanoi
+
+12.
+    1. COUNTING SHEEP
+
+```javascript
+function countSheep(num) {  
+  for (let i = 1; i <= num; i++) {
+    console.log(i + ': Another sheep jumps over the fence')
+  }
+  return 'All sheep jumped over the fence.';
+}
+```
+
+    2. POWER CALCULATOR
+
+```javascript
+function powerCalc(base, exp) {
+    return base ** exp;
+}
+```
+
+    3.
+    4.
+    5.
+    6.
+    7.
