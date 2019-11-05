@@ -159,28 +159,16 @@ function isWhat(n) {
 
 11. Tower of Hanoi
 
-12.
-    1. COUNTING SHEEP
-
 ```javascript
-function countSheep(num) {  
-  for (let i = 1; i <= num; i++) {
-    console.log(i + ': Another sheep jumps over the fence')
-  }
-  return 'All sheep jumped over the fence.';
+function towerOfHanoi(num, source, destination, temp) {
+    if(num === 1){
+        console.log(source, '->', destination)
+        return;
+    }
+    towerOfHanoi(num - 1, A, B, C)
 }
+
+TOH(1, A,C, B)
 ```
 
-    2. POWER CALCULATOR
-
-```javascript
-function powerCalc(base, exp) {
-    return base ** exp;
-}
-```
-
-    3.
-    4.
-    5.
-    6.
-    7.
+12. See [test.js](./test.js) file.
